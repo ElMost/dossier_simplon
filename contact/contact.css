@@ -89,7 +89,7 @@ nav ul li:hover {
     height: 80%;
     max-width: 440px;
     margin: 50px auto 50px;
-    background: linear-gradient(-45deg,#23d5ab, #23a6d5, #e73c7e,#ee7752);
+    background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
     background-size: 400% 400%;
     animation: gradient 12s ease infinite;
 }
@@ -222,5 +222,9 @@ input[type=submit]:hover {
 @media (max-width: 576px) {
     .img-presentation {
         display: none;
+    }
+
+    .avatar {
+        width: 15%;
     }
 }
