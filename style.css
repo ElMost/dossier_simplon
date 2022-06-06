@@ -43,7 +43,7 @@ body {
     text-align: end;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     text-decoration: underline;
 }
 
@@ -76,22 +76,22 @@ nav ul li:hover{
     align-items: center;
 }
 
-.home_img > img{
+.home_img>img {
     width: 100%;
 }
 
 .row {
     border: solid 5px cornsilk;
     border-radius: 50px;
-   
+
 }
 
 .img-presentation {
     width: 70%;
 }
 
-section{
-    color:white;
+section {
+    color: white;
 }
 
 .qui {
@@ -135,7 +135,7 @@ section{
 }
 
 .btn {
-    padding: 15px;    
+    padding: 15px;
 }
 
 button a {
@@ -226,9 +226,14 @@ button a {
     text-decoration: underline;
 }
 
+@media (max-width: 892px) {
+    .contain_elements {
+        flex-direction: column;
+    }
+}
 
-
-
-
-
-
+@media (max-width: 576px) {
+    .img-presentation {
+        display: none;
+    }
+}
