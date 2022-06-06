@@ -82,6 +82,41 @@ nav ul li:hover {
 
 
 
+.carte-conteneur {
+    width: 550px;
+    margin: auto;
+}
+
+.carte-conteneur:hover .carte {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.carte {
+    transform-style: preserve-3d;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    transition: transform 1s;
+    /* taille de carte*/
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+}
+
+.carte-conteneur:hover .carte {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    backface-visibility: hidden;
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+}
+
+
 
 .footer-distributed {
     background-color: #1585ee;
