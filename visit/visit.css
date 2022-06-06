@@ -161,7 +161,7 @@ nav ul li:hover {
     box-shadow: 0 10px 20px rgba(100, 81, 225, 0.3);
 }
 
-.droite-contenu i {
+.coordonees i {
     width: 35px;
     height: 35px;
     border: solid 2px #fff;
@@ -386,8 +386,106 @@ h5 {
         display: none;
     }
 
+    .carte-conteneur{
+        width: 99%;
+        height: 100vh;
+        font-size: 13px;
+    }
+
+    .conteneur-back{
+        display: contents;
+        margin-top: 20px;
+    }
+
+    .carte{
+        height: 80%;
+    }
+
+    .conteneur-avatar{
+        width: 80%;
+        margin: auto;
+    }
+
+    .conteneur-avatar h4{
+        width: 100%;
+        margin: 20px auto 5px;
+        font-size: 20px;
+    }
+
+    .nom{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .social-ul{
+        width: 90%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .social-ul li{
+        width: 100%;
+        margin: 3px;
+        
+    }
+
+    .motivations{
+        font-size: 20px;
+    }
+
+    .conteneur-description{
+        width: 90%;
+        margin: 5px auto 20px;
+        font-size: 16px;
+    }
+
+    .droite >.person{
+        position: absolute;
+        bottom: 100px;
+        padding: 13px 50px;
+    }
+
+    .person h4{
+        font-size: 14px;
+    }
+
+    .person{
+        justify-content: center;
+        padding: 0;
+    }
+
+    .coordonee{
+        position: absolute;
+        margin-right: auto;
+    }
+
+    .telephone {
+        padding-left: 20px;
+    }
+
+    .email {
+        padding-left: 8px;
+    }
+
+    .adress {
+        padding-left: 0px;
+    }
+
+
+    .fas{
+        font-size: medium;
+    }
+
 
     .avatar {
         width: 15%;
     }
-}
+
+    .gauche{        
+            width: 40%;
+            display: flex;          
+           
+        }
+        
+    }
