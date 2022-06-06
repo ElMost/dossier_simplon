@@ -125,3 +125,31 @@ section{
     width: 70%;
 }
 
+.btnRight {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.btn {
+    padding: 15px;    
+}
+
+button a {
+    color: white;
+}
+
+.btn-primary {
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
