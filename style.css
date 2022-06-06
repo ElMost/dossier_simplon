@@ -236,4 +236,9 @@ button a {
     .img-presentation {
         display: none;
     }
+
+    
+    .avatar {
+        width: 15%;
+    }
 }
