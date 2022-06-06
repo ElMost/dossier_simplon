@@ -106,3 +106,22 @@ section{
     border-radius: 50px;
 }
 
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.date {
+    width: 47%;
+}
+
+.alignement {
+    display: inline-flex;
+}
+
+.exp {
+    width: 70%;
+}
+
