@@ -1,0 +1,20 @@
+.navbarColor {
+    background-color: #1585ee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.avatar {
+    width: 6%;
+    filter: hue-rotate(220deg) drop-shadow(2px 4px 4px #0006);
+    border-radius: 50%;
+}
+
+.liens {
+    color: white !important;
+    text-align: end;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
