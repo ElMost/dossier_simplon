@@ -81,10 +81,9 @@ nav ul li:hover {
 }
 
 
-
 .carte-conteneur {
     width: 550px;
-    margin: 30px auto;
+    margin: 50px auto 70px;
 }
 
 .carte-conteneur:hover .carte {
@@ -108,8 +107,7 @@ nav ul li:hover {
     transform: rotateY(180deg);
 }
 
-.card-front,
-.card-back {
+.card-front,.card-back {
     backface-visibility: hidden;
     border-radius: inherit;
     height: 100%;
@@ -137,6 +135,7 @@ nav ul li:hover {
     margin: 10px;
     font-size: 18px;
     letter-spacing: 1px;
+    
 }
 
 .gauche span {
@@ -190,6 +189,109 @@ nav ul li:hover {
 .adress {
     padding-left: 10px;
 }
+
+.card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.91);
+    flex-direction: column;
+    background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+    height: 100%;
+}
+
+.card-back img {
+    width: 60%;
+}
+
+.conteneur-avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.conteneur-avatar h4 {
+    margin: 20px auto;
+    color: white;
+}
+
+.nom {
+    font-size: 1.5rem;
+    background-color: #33383b;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.conteneur-description {
+    width: 60%;
+    margin: auto;
+}
+
+.conteneur-social {
+    width: 100%;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    width: 10%;
+    color: white;
+    text-align: center;
+}
+
+.conteneur-back {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social-ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.social-ul :hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.social-ul li {
+    margin: 10%;
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+    margin-left: 3px;
+}
+
+h5 {
+    color: #fff;
+}
+
+.motivations,
+.iconMotivation {
+    color: #fff;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+
 
 
 
@@ -284,7 +386,7 @@ nav ul li:hover {
         display: none;
     }
 
-    
+
     .avatar {
         width: 15%;
     }
