@@ -300,7 +300,7 @@ h5 {
     text-align: left;
     font: normal 16px sans-serif;
     padding: 20px 20px;
-    position:absolute;
+    position:relative;
     bottom: 0;
 }
 
